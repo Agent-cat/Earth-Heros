@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 const ContactPage = () => {
   const [form, setForm] = useState({ name: '', email: '', subject: 'General', message: '' })
+  
 
   const update = (key) => (e) => setForm({ ...form, [key]: e.target.value })
   const submit = (e) => {

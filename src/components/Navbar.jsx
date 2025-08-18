@@ -1,4 +1,6 @@
 import React from 'react'
+import { LOGOS } from "../constants/constants";
+
 
 const Navbar = () => {
   return (

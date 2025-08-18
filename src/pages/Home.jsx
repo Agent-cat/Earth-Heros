@@ -10,7 +10,8 @@ import ContactPage from './ContactPage'
 const Home = () => {
   return (
     <main className='overflow-x-hidden ' id="home">
-      <section className="relative scale-110 w-full h-screen flex items-center justify-center bg-gradient-to-br  from-emerald-600 via-teal-500 to-emerald-400 text-white">
+     <section className="relative scale-110 w-full h-screen flex items-center justify-center bg-gradient-to-br from-emerald-800 via-teal-700 to-emerald-600 text-white">
+
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
           <p className="text-center tracking-wide text-md sm:text-xl font-medium opacity-90">
             Creating a sustainable future into the ever-widening thought and action
@@ -32,14 +33,18 @@ const Home = () => {
             <a href="#projects" className="rounded-md bg-white text-emerald-700 px-5 py-3 font-semibold shadow-sm hover:bg-gray-100">
               Our Projects
             </a>
-            <a href="#join" className="rounded-md bg-yellow-300 text-emerald-900 px-5 py-3 font-semibold shadow-sm hover:bg-yellow-400">
-              Become a Member
-            </a>
+            <a
+  href="#join"
+  className="rounded-md bg-yellow-300 text-emerald-900 px-5 py-3 font-semibold shadow-sm hover:bg-white"
+>
+  Become a Member
+</a>
+
           </div>
 
           <div className="mt-6 flex flex-wrap justify-center gap-3 text-emerald-900/90">
             <a href="#campaigns" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Our Campaigns</a>
-            <a href="#become-member" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Become a Member</a>
+            <a href="#join" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Become a Member</a>
             <a href="#events" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Events</a>
             <a href="#partners" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Our Partners</a>
             <a href="#contact" className="rounded-md bg-white/20 backdrop-blur px-4 py-2 text-white hover:bg-white/30">Contact Us</a>
@@ -50,7 +55,9 @@ const Home = () => {
       <section id="about" className="py-24" >
         <About/>
       </section>
-      <ProjectsSection/>
+      <section id="projects" className="py-24" >
+        <ProjectsSection/>
+      </section>
       <CampaignsSection/>
       <ServicesSection/>
       <EventsSection/>

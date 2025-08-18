@@ -3,7 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <main id="about" className="min-h-screen bg-emerald-50/40 ">
-      <div className="mx-auto max-w-6xl px-4 sm:px-8 lg:px-12 py-16 sm:py-24">
+<div className="mx-auto max-w-7xl px-4 sm:px-8 lg:px-12 py-16 sm:py-24">
+
+
         {/* Heading */}
         <h1 className="text-center text-4xl sm:text-5xl font-extrabold text-emerald-700 tracking-wide mb-2">
           About Us
@@ -16,13 +18,13 @@ const About = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="rounded-xl overflow-hidden shadow-lg ring-1 ring-black/10 bg-white">
             <img
-              src="https://images.unsplash.com/photo-1455218995003-77303b9a1b58?q=80&w=1600&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1681834913206-cea9d3ec04d6"
               alt="Community working in nature"
-              className="w-full h-80 object-cover"
+              className="w-full h-100 object-cover"
             />
           </div>
 
-          <div className="rounded-xl bg-white p-8 sm:p-10 shadow-lg ring-1 ring-black/10 flex flex-col justify-center h-full">
+          <div className="rounded-xl bg-white p-8 sm:p-10 shadow-lg ring-1 ring-black/10 flex flex-col justify-center w-160 h-70">
             <h2 className="text-2xl sm:text-3xl text-emerald-700 font-extrabold tracking-wide mb-3">Foundation Introduction</h2>
             <p className="text-base sm:text-lg leading-7 text-gray-700">
               Earth Heroes Foundation, established in 2019, is a Section 8 non-profit inspired by Vasudhaiva Kutumbakam ("the world is one family"). We
@@ -33,7 +35,7 @@ const About = () => {
         </div>
 
         {/* Vision / Mission / History */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="rounded-xl bg-white p-8 shadow-lg ring-1 ring-black/10 flex flex-col items-center">
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600">
               {/* info icon */}

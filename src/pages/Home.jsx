@@ -7,6 +7,8 @@ import EventsSection from '../components/EventsSection'
 import PartnersSection from './PartnersSection'
 import Joinus from './Joinus'
 import ContactPage from './ContactPage'
+
+
 const Home = () => {
   return (
     <main className='overflow-x-hidden ' id="home">
@@ -58,13 +60,14 @@ const Home = () => {
       <section id="projects" className="py-24" >
         <ProjectsSection/>
       </section>
+      
       <CampaignsSection/>
       <ServicesSection/>
       <EventsSection/>
       <PartnersSection/>
-      <ContactPage/>
-      <Joinus/>
       
+      <Joinus/>
+      <ContactPage/>
     </main>
   )
 }

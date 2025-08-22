@@ -79,50 +79,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Leadership Profiles */}
-        <h2 className="mt-20 text-center text-3xl sm:text-4xl text-emerald-700 font-extrabold tracking-wide mb-6">
-          Leadership Profiles
-        </h2>
-
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-10">
-          {/* Profile 1 */}
-          <div className="rounded-xl bg-white p-8 shadow-lg ring-1 ring-black/10 flex flex-col">
-            <div className="flex items-center gap-6">
-              <img
-                src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=256&auto=format&fit=crop"
-                alt="Hasini Reddy Ravula"
-                className="h-20 w-20 rounded-full object-cover ring-2 ring-emerald-200"
-              />
-              <div>
-                <h3 className="text-xl font-extrabold text-emerald-700">Hasini Reddy Ravula</h3>
-                <p className="text-sm text-gray-500">Co-Founder & Chairman</p>
-              </div>
-            </div>
-            <p className="mt-6 text-base leading-7 text-gray-700">
-              Hasini is a committed policy consultant, educator, and advocate for sustainability, social justice, and community empowerment. She leads key
-              initiatives in environmental education, climate action, and women's leadership development, including 'EcoGuardians' and 'EmpowerHer'.
-            </p>
-          </div>
-
-          {/* Profile 2 */}
-          <div className="rounded-xl bg-white p-8 shadow-lg ring-1 ring-black/10 flex flex-col">
-            <div className="flex items-center gap-6">
-              <img
-                src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=256&auto=format&fit=crop"
-                alt="Naresh Kumar Jajula"
-                className="h-20 w-20 rounded-full object-cover ring-2 ring-emerald-200"
-              />
-              <div>
-                <h3 className="text-xl font-extrabold text-emerald-700">Naresh Kumar Jajula</h3>
-                <p className="text-sm text-gray-500">Founder & President</p>
-              </div>
-            </div>
-            <p className="mt-6 text-base leading-7 text-gray-700">
-              Naresh is a social entrepreneur passionate about cultural and environmental revival. Combining grassroots activism with expertise in education,
-              psychology, and law, he leads a global movement connecting communities and institutions for sustainable impact.
-            </p>
-          </div>
-        </div>
+       
       </div>
     </main>
   )

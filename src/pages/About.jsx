@@ -18,7 +18,7 @@ const About = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="rounded-xl overflow-hidden shadow-lg ring-1 ring-black/10 bg-white">
             <img
-              src="https://images.unsplash.com/photo-1681834913206-cea9d3ec04d6"
+              src="https://res.cloudinary.com/dqcogelsh/image/upload/v1755881398/Untitled_design_spnjot.png"
               alt="Community working in nature"
               className="w-full h-100 object-cover"
             />

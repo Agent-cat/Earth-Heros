@@ -16,11 +16,11 @@ const About = () => {
 
         {/* Intro section */}
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <div className="rounded-xl overflow-hidden shadow-lg ring-1 ring-black/10 bg-white">
+          <div className="rounded-xl overflow-hidden shadow-lg ring-1 ring-black/0 bg-white">
             <img
               src="https://res.cloudinary.com/dqcogelsh/image/upload/v1755881398/Untitled_design_spnjot.png"
               alt="Community working in nature"
-              className="w-full h-100 object-cover"
+              className="w-full h-80 object-cover"
             />
           </div>
 

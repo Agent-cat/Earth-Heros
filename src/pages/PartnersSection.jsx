@@ -1,33 +1,31 @@
-import React from 'react'
+import React from 'react';
 
 const partners = [
-  'Andhra Pradesh Government',
-  'Sports Authority of India',
-  'Government of Telangana',
-  'Ministry of MSME',
-  'SAI MEME FIT',
-  'SCSC',
-  'ISKCON',
-  'Andhra Pradesh Creativity &\nCulture Commission',
-  "Dr. Reddy's",
-  'University of Hyderabad',
-  'Telangana State Skill\nDevelopment Mission',
-  'GHMC',
-  'IGNOU',
-  'Kendriya Vidyalaya Sangathan',
-  'Navodaya Vidyalaya Samiti',
-  'TCS',
-]
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755882682/4_rs3e8c.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755882940/7_ago0ba.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883207/10_fcirmu.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883208/15_pkoyl4.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883208/11_ynw2zx.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883208/13_wyvsgn.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883208/12_hlxtdz.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883209/14_ysalml.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883215/16_vcdiyl.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883216/17_ybuozj.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883520/3_mafgvx.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883520/6_hiuva4.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755883676/Untitled_design_16_svexq6.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755882813/5_psc8fd.png' },
+  { logo: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1755882976/8_nfdt95.png' },
+];
 
-const Badge = ({ label }) => (
-  <div className="rounded-xl bg-white/80 backdrop-blur px-5 py-4 text-center shadow-sm ring-1 ring-emerald-100">
-    <span className="whitespace-pre-line font-mono text-[15px] text-gray-700">{label}</span>
-  </div>
-)
+const Badge = ({ logo }) => (
+  // Use a fixed width and height with object-cover for a "zoomed" effect
+  <img src={logo} alt="" className="h-54 w-42 object-cover" />
+);
 
 const PartnersSection = () => {
   return (
-    <section id="partners" className="py-20 bg-gradient-to-b from-white to-emerald-50/70 ">
+    <section id="partners" className="py-20 bg-gradient-to-b from-white to-emerald-50/70">
       <div className="mx-auto max-w-6xl px-4 sm:px-8 lg:px-12">
         <h2 className="text-center text-4xl sm:text-5xl font-extrabold text-emerald-700 tracking-wide">
           Our Partners
@@ -36,14 +34,16 @@ const PartnersSection = () => {
           Collaborating with leading organizations to maximize our impact and reach.
         </p>
 
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
           {partners.map((p) => (
-            <Badge key={p} label={p} />
+            <div key={p.logo} className="flex justify-center items-center">
+              <Badge logo={p.logo} />
+            </div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PartnersSection 
+export default PartnersSection;

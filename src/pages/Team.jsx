@@ -6,14 +6,14 @@ const LeadershipProfiles = () => {
       name: "Hasini Reddy Ravula",
       role: "Co-Founder & Chairman",
       image:
-        "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=256&auto=format&fit=crop",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=688,fit=crop,trim=283.76525821596243;90.4326923076923;682.244131455399;0/d95r3VzW8gu62Gpo/whatsapp-image-2024-03-05-at-12.25.46-pm-mxB8ooVoXNUE1Kk4.jpeg",
       bio: "Hasini is a committed policy consultant, educator, and advocate for sustainability, social justice, and community empowerment. She leads key initiatives in environmental education, climate action, and women's leadership development, including 'EcoGuardians' and 'EmpowerHer'.",
     },
     {
       name: "Naresh Kumar Jajula",
       role: "Founder & President",
       image:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=256&auto=format&fit-crop",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=683,fit=crop,trim=10.846938775510203;0;336.2551020408163;0/d95r3VzW8gu62Gpo/whatsapp-image-2024-02-11-at-10.50.46-pm-Yyv2PN1v1pFeN1yV.jpeg",
       bio: "Naresh is a social entrepreneur passionate about cultural and environmental revival. Combining grassroots activism with expertise in education, psychology, and law, he leads a global movement connecting communities and institutions for sustainable impact.",
     },
   ];

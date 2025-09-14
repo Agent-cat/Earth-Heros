@@ -1,43 +1,24 @@
-import React, { useState } from "react"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import React from "react"
 
 const EventsSection = () => {
-  const [startIndex, setStartIndex] = useState(0)
-
   const youtubeVideos = [
     "https://www.youtube.com/embed/trMyTABr5DU?si=cvh4uQ5JuSCvkiHP",
     "https://www.youtube.com/embed/G0tOdwUsa_0?si=lLtVswOTyyLmEVEc",
     "https://www.youtube.com/embed/9NfCjq-oyqI?si=DYjSbF0otjINcnqp",
   ]
 
+  // Only 4 Instagram posts
   const instagramPosts = [
     "https://www.instagram.com/p/DLKOYZUPC53/embed",
     "https://www.instagram.com/p/DLVVGS1zl08/embed",
     "https://www.instagram.com/p/DJHp7m8yLtM/embed",
     "https://www.instagram.com/p/DKWemQGPl66/embed",
-    "https://www.instagram.com/p/DLVVGS1zl08/embed",
-    "https://www.instagram.com/p/DJHp7m8yLtM/embed",
   ]
-
-  const postsPerPage = 4
-  const visiblePosts = instagramPosts.slice(startIndex, startIndex + postsPerPage)
-
-  const nextPosts = () => {
-    if (startIndex + postsPerPage < instagramPosts.length) {
-      setStartIndex(startIndex + postsPerPage)
-    }
-  }
-
-  const prevPosts = () => {
-    if (startIndex - postsPerPage >= 0) {
-      setStartIndex(startIndex - postsPerPage)
-    }
-  }
 
   return (
     <section
       id="events"
-      className="py-20 bg-gradient-to-b from-white to-emerald-50/70 scale-110"
+      className="py-20 bg-gradient-to-b from-white to-emerald-50/70"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-8 lg:px-12">
         <h2 className="text-center text-4xl sm:text-5xl font-extrabold text-emerald-700 tracking-wide">
@@ -73,37 +54,19 @@ const EventsSection = () => {
             📸 Instagram Posts
           </h3>
 
-          {/* Row of 4 posts */}
+          {/* Responsive grid: 1 → 2 → 4 */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
-            {visiblePosts.map((post, i) => (
+            {instagramPosts.map((post, i) => (
               <iframe
                 key={i}
                 src={post}
-                className="w-[250px] h-[300px] rounded-lg shadow-md"
+                className="w-full max-w-[220px] h-[280px] rounded-lg shadow-md"
                 frameBorder="0"
                 scrolling="no"
                 allowTransparency
                 allow="encrypted-media"
               ></iframe>
             ))}
-          </div>
-
-          {/* Arrow Controls */}
-          <div className="flex justify-center gap-8 mt-6">
-            <button
-              onClick={prevPosts}
-              className="p-3 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition disabled:opacity-50"
-              disabled={startIndex === 0}
-            >
-              <ChevronLeft className="h-6 w-6" />
-            </button>
-            <button
-              onClick={nextPosts}
-              className="p-3 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 transition disabled:opacity-50"
-              disabled={startIndex + postsPerPage >= instagramPosts.length}
-            >
-              <ChevronRight className="h-6 w-6" />
-            </button>
           </div>
         </div>
       </div>

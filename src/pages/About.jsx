@@ -1,30 +1,30 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
-    <main id="about" className="min-h-screen bg-emerald-50/40 ">
-<div className="mx-auto max-w-7xl px-4 sm:px-8 lg:px-12 py-16 sm:py-24">
-
+    <main id="about" className="min-h-screen bg-emerald-50/40">
+      <div className="mx-auto max-w-7xl px-4 sm:px-8 lg:px-12 py-16 sm:py-24">
 
         {/* Heading */}
-        <h1 className="text-center text-4xl sm:text-5xl font-extrabold text-emerald-700 tracking-wide mb-2">
+        <h1 className="text-center text-3xl sm:text-4xl font-extrabold text-emerald-700 tracking-wide mb-2">
           About Us
         </h1>
-        <p className="mt-4 text-center text-lg sm:text-xl text-emerald-900/90 max-w-2xl mx-auto font-medium">
+        <p className="mt-4 text-center text-base sm:text-lg text-emerald-900/90 max-w-2xl mx-auto font-medium">
           Established in 2019, inspired by Vasudhaiva Kutumbakam – fostering an inclusive, developed society where every individual is an Earth Hero.
         </p>
 
         {/* Intro section */}
+        {/* Mobile-first: grid-cols-1 is default, lg:grid-cols-2 applies on larger screens */}
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="rounded-xl overflow-hidden shadow-lg ring-1 ring-black/0 bg-white">
             <img
               src="https://res.cloudinary.com/dqcogelsh/image/upload/v1755881398/Untitled_design_spnjot.png"
               alt="Community working in nature"
-              className="w-full h-80 object-cover"
+              className="w-full h-64 sm:h-80 object-cover" // Adjusted height for mobile
             />
           </div>
 
-          <div className="rounded-xl bg-white p-8 sm:p-10 shadow-lg ring-1 ring-black/10 flex flex-col justify-center w-160 h-70">
+          <div className="rounded-xl bg-white p-8 sm:p-10 shadow-lg ring-1 ring-black/10 flex flex-col justify-center">
             <h2 className="text-2xl sm:text-3xl text-emerald-700 font-extrabold tracking-wide mb-3">Foundation Introduction</h2>
             <p className="text-base sm:text-lg leading-7 text-gray-700">
               Earth Heroes Foundation, established in 2019, is a Section 8 non-profit inspired by Vasudhaiva Kutumbakam ("the world is one family"). We
@@ -35,6 +35,7 @@ const About = () => {
         </div>
 
         {/* Vision / Mission / History */}
+        {/* Mobile-first: grid-cols-1 is default, md:grid-cols-3 applies on larger screens */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
           <div className="rounded-xl bg-white p-8 shadow-lg ring-1 ring-black/10 flex flex-col items-center">
             <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600">
@@ -78,11 +79,9 @@ const About = () => {
             </p>
           </div>
         </div>
-
-       
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default About
+export default About;

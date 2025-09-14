@@ -28,27 +28,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346995/1_xc6u6l.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346996/cyclew_r4df8n.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346997/orient3_tanndp.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346997/IMG_8851_vqrpvs.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346995/hugt3_blgdws.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346998/sdg5_ovpiwn.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -69,27 +69,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/sdg7_ahlgbs.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346999/planatation2_y8brt1.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346996/hugt2_upwjm9.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346997/IMG_4620_s77wif.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346999/hugt1_qn0j1g.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346999/orient2_vaeprv.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -110,27 +110,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/sdg10_s4m2d8.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/sdg11_yp6mqy.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/swatch5_pqlyug.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/cyclothon_znrezq.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/sdg12_jqitij.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/w1_ws0vqa.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -151,27 +151,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347003/w2_nfavok.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/sdg9_l6hl4v.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346998/sdg5_ovpiwn.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347667/childd2_h0ehaw.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346997/IMG_8851_vqrpvs.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347667/childd2_h0ehaw.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -193,27 +193,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347881/msme2_j7xzmh.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347885/sc3_gpc3na.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347890/sdg15_bhkw5r.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347929/summer_campc2_giydtw.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347887/msme1_rhlpz6.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347887/sdg4_hwiopw.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -234,27 +234,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347887/sdg4_hwiopw.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346996/cyclew_r4df8n.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346995/hugt3_blgdws.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/sdg7_ahlgbs.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346998/sdg5_ovpiwn.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346999/planatation2_y8brt1.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -275,27 +275,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757346999/orient2_vaeprv.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347929/summer_campc2_giydtw.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347890/sdg14_ypwgvp.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347668/childd_uxu54u.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347881/msme2_j7xzmh.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347882/sdg1_iyncfv.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -316,27 +316,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757350872/cancer11_b1kzc5.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757351054/summerc1_s2tpmw.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/w1_ws0vqa.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/swatch5_pqlyug.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/sdg13_dvecww.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/sdg12_jqitij.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -357,27 +357,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347881/msme2_j7xzmh.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347885/sc3_gpc3na.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347890/sdg15_bhkw5r.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347929/summer_campc2_giydtw.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347887/msme1_rhlpz6.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347887/sdg4_hwiopw.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],
@@ -398,27 +398,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/sdg10_s4m2d8.jpg',
         alt: 'Community members participating in a workshop',
       },
       {
-        src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/sdg11_yp6mqy.jpg',
         alt: 'Volunteers distributing supplies',
       },
       {
-        src: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347001/swatch5_pqlyug.jpg',
         alt: 'Children learning in an outdoor classroom',
       },
       {
-        src: 'https://images.unsplash.com/photo-1591591947799-c8339b3a6f4b?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347000/cyclothon_znrezq.jpg',
         alt: 'A newly constructed well providing clean water',
       },
       {
-        src: 'https://images.unsplash.com/photo-1576021182212-9f88d3c7b8a1?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/sdg12_jqitij.jpg',
         alt: 'Group photo of the project team and beneficiaries',
       },
       {
-        src: 'https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500',
+        src: 'https://res.cloudinary.com/dqcogelsh/image/upload/v1757347002/w1_ws0vqa.jpg',
         alt: 'A successful harvest from the community garden',
       },
     ],

@@ -16,6 +16,13 @@ const LeadershipProfiles = () => {
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=683,fit=crop,trim=10.846938775510203;0;336.2551020408163;0/d95r3VzW8gu62Gpo/whatsapp-image-2024-02-11-at-10.50.46-pm-Yyv2PN1v1pFeN1yV.jpeg",
       bio: "Naresh is a social entrepreneur passionate about cultural and environmental revival. Combining grassroots activism with expertise in education, psychology, and law, he leads a global movement connecting communities and institutions for sustainable impact.",
     },
+    {
+      name: "Amal Kiran Taae",
+      role: "Founder & Advisor",
+      image:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=683,fit=crop,trim=562.6828282828283;0;393.050505050505;136.5/d95r3VzW8gu62Gpo/whatsapp-image-2024-09-12-at-2.29.30-pm-m6LJBv1k5XteNRwz.jpeg",
+      bio: "",
+    },
   ];
 
   const coreTeam = [

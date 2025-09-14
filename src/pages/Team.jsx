@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const LeadershipProfiles = () => {
   const leaders = [
@@ -97,8 +97,22 @@ const LeadershipProfiles = () => {
   ];
 
   const [page, setPage] = useState(0);
-  const itemsPerPage = 4;
+  const [itemsPerPage, setItemsPerPage] = useState(4);
   const totalPages = Math.ceil(coreTeam.length / itemsPerPage);
+
+  // Update itemsPerPage based on screen width
+  useEffect(() => {
+    const handleResize = () => {
+      // Set to 4 for desktop (md and up), 1 for mobile (sm and down)
+      setItemsPerPage(window.innerWidth >= 768 ? 4 : 1);
+    };
+
+    // Initial check
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleNext = () => {
     setPage((prev) => (prev + 1) % totalPages);
@@ -149,25 +163,25 @@ const LeadershipProfiles = () => {
         Our Team
       </h2>
       <div className="mx-auto w-[80%]">
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-    {displayedCore.map((member, idx) => (
-      <div
-        key={idx}
-        className="relative w-full overflow-hidden rounded-xl shadow-lg"
-        style={{ minHeight: "250px" }}
-      >
-        <img
-          src={member.image}
-          alt={member.name}
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute bottom-0 left-0 right-0 bg-emerald-700 p-1 text-center">
-          <h3 className="text-sm font-semibold text-white">{member.name}</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          {displayedCore.map((member, idx) => (
+            <div
+              key={idx}
+              className="relative w-full overflow-hidden rounded-xl shadow-lg"
+              style={{ minHeight: "250px" }}
+            >
+              <img
+                src={member.image}
+                alt={member.name}
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-emerald-700 p-1 text-center">
+                <h3 className="text-sm font-semibold text-white">{member.name}</h3>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    ))}
-  </div>
-</div>
 
       <div className="flex justify-center items-center gap-4 mt-6">
         {totalPages > 1 && (

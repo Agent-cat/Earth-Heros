@@ -14,7 +14,36 @@ const Joinus = () => {
 
   const submit = (e) => {
     e.preventDefault()
-    alert('Application submitted! (Demo)')
+    // Basic validation for required fields
+    if (!form.name || !form.email || !form.phone || !form.reason) {
+      alert('Please fill in all required fields: Name, Email, Phone, and Reason for Joining.')
+      return
+    }
+
+    const recipient = 'earthheroesfoundation@gmail.com'
+    const subject = `Membership Application - ${form.name}`
+    const bodyLines = [
+      'New membership application details:',
+      '',
+      `Full Name: ${form.name}`,
+      `Email: ${form.email}`,
+      `Phone: ${form.phone}`,
+      `Address: ${form.address || '-'}`,
+      '',
+      'Skills/Interests:',
+      form.skills || '-',
+      '',
+      'Reason for Joining:',
+      form.reason || '-',
+    ]
+    const body = bodyLines.join('\n')
+
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+
+    // Open default mail client with prefilled email
+    window.location.href = mailtoLink
+
+    // Optionally reset form
     setForm({ name: '', email: '', phone: '', address: '', skills: '', reason: '' })
   }
 

@@ -7,12 +7,29 @@ const EventsSection = () => {
     "https://www.youtube.com/embed/9NfCjq-oyqI?si=DYjSbF0otjINcnqp",
   ]
 
-  // Only 4 Instagram posts
+  // Instagram posts (image + link to post)
   const instagramPosts = [
-    "https://www.instagram.com/p/DLKOYZUPC53/embed",
-    "https://www.instagram.com/p/DLVVGS1zl08/embed",
-    "https://www.instagram.com/p/DJHp7m8yLtM/embed",
-    "https://www.instagram.com/p/DKWemQGPl66/embed",
+    {
+      image:
+        "https://res.cloudinary.com/dqcogelsh/image/upload/v1758292910/insta2_wd7qkv.jpg", // direct image
+      link: "https://www.instagram.com/earthheroesfoundation/?igsh=aGV5eWt1eDY1bHk5#",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dqcogelsh/image/upload/v1758292909/insta1_rgtkii.jpg",
+      link: "https://www.instagram.com/earthheroesfoundation/?igsh=aGV5eWt1eDY1bHk5#",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dqcogelsh/image/upload/v1758292909/insta3_yzbneg.jpg",
+      link: "https://www.instagram.com/earthheroesfoundation/?igsh=aGV5eWt1eDY1bHk5#",
+    },
+    {
+      image:
+        "https://res.cloudinary.com/dqcogelsh/image/upload/v1758292910/insta4_u3w2q8.jpg",
+      link: "https://www.instagram.com/earthheroesfoundation/?igsh=aGV5eWt1eDY1bHk5#",
+    },
+   
   ]
 
   return (
@@ -57,15 +74,19 @@ const EventsSection = () => {
           {/* Responsive grid: 1 → 2 → 4 */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
             {instagramPosts.map((post, i) => (
-              <iframe
+              <a
                 key={i}
-                src={post}
-                className="w-full max-w-[220px] h-[280px] rounded-lg shadow-md"
-                frameBorder="0"
-                scrolling="no"
-                allowTransparency
-                allow="encrypted-media"
-              ></iframe>
+                href={post.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src={post.image}
+                  alt={`Instagram post ${i + 1}`}
+                  className="w-full max-w-[220px] h-[280px] object-cover rounded-lg shadow-md hover:scale-105 transition-transform"
+                />
+              </a>
             ))}
           </div>
         </div>
